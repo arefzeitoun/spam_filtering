@@ -31,7 +31,7 @@ df.isnull().sum()
 df.dropna(inplace = True)     
 
 # Drop duplicates
-df.drop_duplicates()    
+df.drop_duplicates(inplace = True)    
 
 # We put all the stopwords into a set called "stop_words"
 stop_words = set(stopwords.words("english")) 
